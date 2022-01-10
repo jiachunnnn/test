@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>BMI計算</title>
+</head>
+
+<body>
+<head>
+<script>
+function cal(){
+    height =document.getElementByld("height").value;
+    weight = document.getElementByld("weight").value;
+    BMI=weight/height*2;
+    document.getElementByld("BMI").value=BMI;
+}
+</script>
+</head>
+<p>身高(m)<input type="text" id="height"name="height"></p>
+
+<p>體重(kg):<input type="number" id="weight"id="weight"></p>
+
+<p><button onclick="cal()">計算</button> </p>
+
+<p>BMI<input type="text" id="BMI"></p>
+
+</body>
+
+</html>
